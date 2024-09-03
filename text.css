@@ -1,0 +1,71 @@
+
+body {
+    margin: 25px;
+    background-color: #94b6c4;
+}
+.div-text {
+    background-color: azure;
+    box-sizing: border-box;
+    display: block;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 45px;
+}
+.button-give {
+    width: 500px;
+    height: 100px;
+    background-color: #c462eb;
+    color: #c0e6ec;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: -1px 1px 20px -3px #551445;
+}
+.button-give:hover {
+    box-shadow: inset -1px 1px 20px -3px #3f213b;
+}
+.number-text {
+    font-size: 30px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form input {
+    box-sizing: border-box;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.form button {
+    width: 500px;
+    background-color: #bca5c5;
+    color: #2394a5;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: -1px 1px 20px -3px #723e65;
+}
+.form button:hover {
+    box-shadow: inset -1px 1px 20px -3px #70426a;
+}
+.lil-btn {
+    border-color: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #cff3fc;
+    position: relative;
+    left: 515px;
+    bottom: 25px
+}
+.modal-list {
+    background-color: #536e72f6;
+    width: 500px;
+    padding: 30px;
+    list-style: none;
+    font-size: 21px;
+}
